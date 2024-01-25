@@ -23,8 +23,7 @@ public class PersonServices {
 	public List<Person> findAll() {
 		List<Person> persons = new ArrayList<>();
 		
-		repository.findAll();
-		return repository.findAll();;
+		return repository.findAll();
 	
 	
 	}
